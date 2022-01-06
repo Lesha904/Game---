@@ -1,0 +1,140 @@
+.area-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid #d771e9;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #e6ade7;
+}
+
+#area{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    font-size: 34px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-result-wrapper{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;   
+    top: 0;
+    left: 0;
+    background-color: rgba(151, 231, 45, 0.2); 
+}
+
+#modal-window{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgreen;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -20%); 
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#btn-close{
+    width: 150px;
+    height: 20px;
+    background-color: yellow;
+    color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hi{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*         */
+.wrapper-score {
+    display: flex;
+    
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.score-text{
+    border: 1px solid red;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+.block{
+    border: 1px solid blue;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.x-part{
+    border: 1px solid rgba(157, 255, 0, 0.705);
+    width: 125px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+
+.zero-part{
+    border: 1px solid rgba(255, 115, 0, 0.89);
+    width: 125px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.x-symbol{
+    border: 1px solid purple;
+    height: 75px;
+}
+
+.x-score{
+    border: 1px solid rgb(0, 119, 128);
+    height: 75px;
+}
+
+.zero-symbol{
+    border: 1px solid purple;
+    height: 75px;
+}
+
+.zero-score{
+    border: 1px solid rgb(0, 119, 128);
+    height: 75px;
+}
